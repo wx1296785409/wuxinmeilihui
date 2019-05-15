@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./dist/css/paging.min.css">
+	<title>商品列表页</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header_container">
+			<div class="header">
+				<div class="quick_access">
+					<div class="quick_access_left">
+						<ul class="ul_header">
+							<li class="theLi">
+								<img class="youli" src="./img/zhuceyouli.gif" >
+								<a href="register.html">注册有礼</a>
+							</li>
+							<li class="theLi">
+								<span>|</span>
+							</li>
+							<li class="theLi">
+								<a href="Signin.html">登录</a>
+							</li>
+							<li class="theLi">
+								<span>|</span>
+							</li>
+							<li class="theLi">
+								<a href="">收藏</a>
+							</li>
+						</ul>
+					</div>
+					<div class="quick_access_right">
+						<ul>
+							<li>
+								<span>在线咨询</span>
+							</li>
+							<li>|</li>
+							<li>
+								<div class="pop_up">
+									<div class="pop_up_app">
+										<img src="./img/QR_code.png" alt="">
+										<p>扫码下载APP</p>
+									</div>
+								</div>
+								<a href="">手机版</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a class="imglink_weibo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="branding">
+					<a href="homepage.html" class="logo"></a>
+					<a href="" class="logo_slogan"></a>
+					<div class="search_bar">
+						<div class="clearfix">
+							<div class="input_txt">
+								<input type="text" id="searchTxt" value="" placeholder="THEORY 全场1折起">
+							</div>
+							<div class="search_icon" id="searchBtn">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 导航栏 -->
+			<div class="nav_container">
+				<div class="header_menu">
+					<ul>
+						<li><a href="homepage.html" style="color: red;">首页</a></li>
+						<li><a class="theNav">女士</a>
+							<div class="pop_up">
+								<div class="submenu">
+									<h3 class="title">热门活动</h3>
+									<ul>
+										<li>EMPORIO ARMANI&nbsp;阿玛尼　总裁品质女装专场</li>
+										<li>AJ &amp; AX &amp; EA7&nbsp;阿玛尼 休闲女装专场</li>
+										<li>OUDIFU 女装&nbsp;唤醒你的春季衣橱</li>
+										<li>CB&nbsp;春夏淑女内搭专场</li>
+										<li>KATYHUANGSTYLE&nbsp;犹如花仙子的你</li>
+										<li>GEGINA&nbsp;柔美知性风  春装来袭</li>
+										<li>CAMELIO TOSCALINI&nbsp;都市女鞋，持靓出街</li>
+										<li>ETNIA BARCELONA&nbsp;西班牙独立眼镜品牌 首次入驻</li>
+									</ul>
+								</div>
+								<div class="submenu">
+									<h3 class="title">商品分类</h3>
+									<ul>
+										<li>服装</li>
+										<li>鞋履</li>
+										<li>包袋</li>
+										<li>手表&首饰</li>
+										<li>配饰</li>
+										<li>内衣</li>
+										<li>眼镜</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a href="" class="theNav">男士</a>
+							<div class="pop_up">
+								<div class="submenu">
+									<h3 class="tilte">热门活动</h3>
+									<ul>
+										<li>EMPORIO ARMANI&nbsp;阿玛尼　总裁品质男装专场</li>
+										<li>AJ &amp; AX &amp; EA7&nbsp;阿玛尼 休闲男装专场</li>
+										<li>MAISON KITSUNE&amp;PAUL SMITH&nbsp;初春男士尖货上新</li>
+										<li>GIANNI VERSACE&nbsp;文艺复兴 意式奢华 男装上新</li>
+										<li>周年庆男士专场&nbsp;欧洲买手店直发 七日无忧退货</li>
+										<li>VIVIENNE WESTWOOD&nbsp;让你做个不同的个性型男</li>
+										<li>INITIAL&nbsp;轻剪裁春季新款男装</li>
+										<li>BYBLOS &amp; RICHMO &amp; DIRK BIKKEMBERGS&nbsp;潮牌男人集</li>
+									</ul>
+								</div>
+								<div class="submenu">
+									<h3 class="title">商品分类</h3>
+									<ul>
+										<li>服装</li>
+										<li>鞋履</li>
+										<li>配饰</li>
+										<li>包袋钱包</li>
+									</ul>
+								</div>
+							</div>	
+						</li>
+						<li><a href="" class="theNav">美妆</a>
+							<div class="pop_up">
+								<div class="submenu">
+									<h3 class="title">热门活动</h3>
+									<ul>
+										<li>ANNA SUI&nbsp;安娜苏 梦幻少女专场</li>
+										<li>超值组套专场&nbsp;整套买更划算</li>
+										<li>DR JART蒂佳婷(爆款送5片面膜)&nbsp;素颜美肌的秘密</li>
+										<li>美容仪器专场&nbsp;逆转时光 青春不老(新品上线)</li>
+										<li>爆款尖货专场&nbsp;专治选择困难症</li>
+										<li>HAIR RITUEL BY SISLEY &nbsp;高端洗护 植物精粹滋润发丝</li>
+										<li>SHISEIDO资生堂&nbsp;给予肌肤深层力量</li>
+										<li>小众专场&nbsp;专注研发的口碑尖货专场</li>
+									</ul>
+								</div>	
+								<div class="submenu">
+									<h3 class="title">商品分类</h3>
+									<ul>
+										<li>护肤</li>
+										<li>彩妆</li>
+										<li>香氛</li>
+										<li>美体</li>
+										<li>男士</li>
+										<li>面膜</li>
+										<li>美容仪</li>
+										<li>美发</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a href="" class="theNav">家居</a>
+							<div class="pop_up">
+								<div class="submenu">
+									<h3 class="tilte">热门活动</h3>
+									<ul>
+										<li>YOLANNA &amp; SHERIDAN&nbsp;欧式床品特卖场</li>
+										<li>WEEKENDER &amp; VOYAGETIME&nbsp;初夏踏青箱包专场</li>
+										<li>FOSSFLAKES&nbsp;北欧进口可水洗家居  2件9 3件8</li>
+										<li>ROYALROSE&nbsp;清凉一夏  凉席家居服专场</li>
+										<li>DOWNIA&nbsp;澳洲家居 </li>
+										<li>IMM LIVING&nbsp;枫叶国的创想</li>
+										<li>GREENGATE&nbsp;花式专场  春日上新专场 （2件9 4件7）</li>
+										<li>高人气家居&nbsp;五月重磅推荐</li>
+									</ul>
+								</div>
+								<div class="submenu">
+									<h3 class="title">商品分类</h3>
+									<ul>
+										<li>床品</li>
+										<li>卫浴</li>
+										<li>厨具</li>
+										<li>摆件</li>
+										<li>办公&amp;礼品</li>
+										<li>家电</li>
+										<li>旅游</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a class="theNav">婴童</a>
+							<div class="pop_up">
+								<div class="submenu">
+									<h3 class="tilte">热门活动</h3>
+									<ul>
+										<li>REIMA&nbsp;芬兰功能性童装春夏上新</li>
+										<li>HABA&nbsp;德国玩具精选</li>
+										<li>FENDI&nbsp;意大利大牌宝宝春夏清仓直降</li>
+										<li>FENDI&nbsp;意大利大牌男女童装春夏清仓直降</li>
+										<li>SERGENT MAJOR&nbsp;（2件9折）男童男宝宝夏款上新</li>
+										<li>SERGENT MAJOR&nbsp;（2件9折）女童女宝宝夏款上新</li>
+										<li>SCHWARTZ&nbsp;（2件8折）法式设计童装男童夏款专场</li>
+										<li>SCHWARTZ&nbsp;（2件8折）法式设计童装女童夏款专场</li>
+									</ul>
+								</div>
+								<div class="submenu">
+									<h3 class="title">商品分类</h3>
+									<ul>
+										<li>服装</li>
+										<li>鞋履</li>
+										<li>玩具</li>
+										<li>母婴</li>
+										<li>配饰</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a href="" class="theNav">海外</a>
+							<div class="pop_up">
+								<div class="submenu">
+									<h3 class="title">热门活动</h3>
+									<ul>
+										<li>MOSCHINO&nbsp;时尚熊出没  减龄又百搭 </li>
+										<li>SELF PORTRAIT&nbsp;明星钟意的镂空艺术</li>
+										<li>新品&nbsp;“正”装待发</li>
+										<li>最新轻奢包袋&nbsp;助力小长假出游穿搭</li>
+										<li>TORY BURCH&nbsp;轻松又时髦的美式Chic</li>
+										<li>MICHAEL KORS&nbsp;随性逐风 轻奢礼尚 </li>
+										<li>上新专场&nbsp;寻觅春日色彩</li>
+										<li>FENDI女郎&nbsp;不会输的美</li>
+									</ul>
+								</div>
+							</div>	
+						</li>
+						<li><a href="">即将推出</a></li>
+					</ul>
+					<div class="nav_right">
+						<ul>
+							<li class="online-service"></li>
+							<li class="shopping_quantity">0</li>
+							<li>|</li>
+							<li>¥0.00</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content_container">
+			<!-- 商品区 -->
+			<div class="nonBeauty_content">
+				<div class="theEvent theEventTop">
+					<div class="DivImg">
+						<a>4天后活动结束</a>
+						<img src="https://cdn12.mei.com/category/20190225/5e568a7afa7a91d685cceca09fae1d17d72eb86efc6c943a.png@320w_192h_2e_80q" >
+					</div>
+					<div class="theEventIntroduction">
+						<span class="theEventTitle">DVF 耀目春日 炫动色彩</span>
+						<span class="bbs">5
+							<a>折</a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="nonBeauty_content">
+				<div class="theEvent theEventTop">
+					<div class="DivImg">
+						<a>4天后活动结束</a>
+						<img src="https://cdn12.mei.com/category/20190225/5e568a7afa7a91d685cceca09fae1d17d72eb86efc6c943a.png@320w_192h_2e_80q" >
+					</div>
+					<div class="theEventIntroduction">
+						<span class="theEventTitle">DVF 耀目春日 炫动色彩</span>
+						<span class="bbs">5
+							<a>折</a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="nonBeauty_content">
+				<div class="theEvent theEventTop">
+					<div class="DivImg">
+						<a>4天后活动结束</a>
+						<img src="https://cdn12.mei.com/category/20190225/5e568a7afa7a91d685cceca09fae1d17d72eb86efc6c943a.png@320w_192h_2e_80q" >
+					</div>
+					<div class="theEventIntroduction">
+						<span class="theEventTitle">DVF 耀目春日 炫动色彩</span>
+						<span class="bbs">5
+							<a>折</a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="nonBeauty_content">
+				<div class="theEvent theEventTop">
+					<div class="DivImg">
+						<a>4天后活动结束</a>
+						<img src="https://cdn12.mei.com/category/20190225/5e568a7afa7a91d685cceca09fae1d17d72eb86efc6c943a.png@320w_192h_2e_80q" >
+					</div>
+					<div class="theEventIntroduction">
+						<span class="theEventTitle">DVF 耀目春日 炫动色彩</span>
+						<span class="bbs">5
+							<a>折</a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="nonBeauty_content">
+				<div class="theEvent theEventTop">
+					<div class="DivImg">
+						<a>4天后活动结束</a>
+						<img src="https://cdn12.mei.com/category/20190225/5e568a7afa7a91d685cceca09fae1d17d72eb86efc6c943a.png@320w_192h_2e_80q" >
+					</div>
+					<div class="theEventIntroduction">
+						<span class="theEventTitle">DVF 耀目春日 炫动色彩</span>
+						<span class="bbs">5
+							<a>折</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 活动即将开始 -->
+		<div class="activitiesList">
+			<h3 class="siloActivitiesContent">
+				<span class="spanLeft"></span>
+				<span class="spanTitle">活动即将开始</span>
+				<span class="spanRight"></span>
+			</h3>
+			<div class="activitiesHeadera">
+				<div class="div1">
+					<span class="bba">明天</span>
+					<span>周一</span>
+					<span>周二</span>
+					<span>周三</span>
+					<span>周四</span>
+				</div>
+			</div>
+			<!-- 明天 -->
+			<div class="tomorrows tomorrow">
+				<div class="theActivities">
+					<div class="bbs"></div>
+					<div class="theButton">
+						<a href="#">预览</a>
+						<span>|</span>
+						<a href="">订阅</a>
+					</div>
+					<div class="theActivitiesImg">
+						<img src="https://cdn12.mei.com/category/20190221/dce7c091194eeac0728180f42a56e26c78124244265805bc.jpg@150w_90h_2e_80q" >
+					</div>
+					<div class="theActivitiesExplain">
+						<p>灵感设计 INXX旗下集合女装专场（满减）</p>
+						<p class="red">
+							<span>0.9</span>折
+						</p>
+					</div>
+				</div>
+				<div class="theActivities">
+				    <div class="bbs"></div>
+				    <div class="theButton">
+				        <a>预览</a>
+				        <span>|</span>
+				        <a>订阅</a>
+				    </div>
+				    <div class="theActivitiesImg">
+				        <img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+				            alt="">
+				    </div>
+				    <div class="theActivitiesExplain">
+				        <p>灵感设计 INXX旗下集合女装专场（满减）</p>
+				        <p class="red">
+				            <span>
+				                0.9
+				            </span>
+				            折
+				        </p>
+				    </div>
+				</div>
+				<div class="theActivities">
+				    <div class="bbs"></div>
+				    <div class="theButton">
+				        <a>预览</a>
+				        <span>|</span>
+				        <a>订阅</a>
+				    </div>
+				    <div class="theActivitiesImg">
+				        <img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+				            alt="">
+				    </div>
+				    <div class="theActivitiesExplain">
+				        <p>灵感设计 INXX旗下集合女装专场（满减）</p>
+				        <p class="red">
+				            <span>
+				                0.9
+				            </span>
+				            折
+				        </p>
+				    </div>
+				</div>
+				<div class="theActivities">
+				    <div class="bbs"></div>
+				    <div class="theButton">
+				        <a>预览</a>
+				        <span>|</span>
+				        <a>订阅</a>
+				    </div>
+				    <div class="theActivitiesImg">
+				        <img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+				            alt="">
+				    </div>
+				    <div class="theActivitiesExplain">
+				        <p>灵感设计 INXX旗下集合女装专场（满减）</p>
+				        <p class="red">
+				            <span>
+				                0.9
+				            </span>
+				            折
+				        </p>
+				    </div>
+				</div>
+				<div class="theActivities">
+				    <div class="bbs"></div>
+				    <div class="theButton">
+				        <a>预览</a>
+				        <span>|</span>
+				        <a>订阅</a>
+				    </div>
+				    <div class="theActivitiesImg">
+				        <img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+				            alt="">
+				    </div>
+				    <div class="theActivitiesExplain">
+				        <p>灵感设计 INXX旗下集合女装专场（满减）</p>
+				        <p class="red">
+				            <span>
+				                0.9
+				            </span>
+				            折
+				        </p>
+				    </div>
+				</div>
+			</div>
+			<!-- 周一 -->
+			<div class ="tomorrow">
+				<div class="theActivities">
+					<div class="bbs"></div>
+					<div class="theButton">
+						<a>预览</a>
+						<span>|</span>
+						<a>订阅</a>
+					</div>
+					<div class="theActivitiesImg">
+						<img src="https://cdn12.mei.com/category/20190221/dce7c091194eeac0728180f42a56e26c78124244265805bc.jpg@150w_90h_2e_80q"
+							alt="">
+					</div>
+					<div class="theActivitiesExplain">
+						<p>灵感设计 INXX旗下集合女装专场（满减）</p>
+						<p class="red">
+							<span>
+								0.9
+							</span>
+							折
+						</p>
+					</div>
+				</div>
+				<div class="theActivities">
+					<div class="bbs"></div>
+					<div class="theButton">
+						<a>预览</a>
+						<span>|</span>
+						<a>订阅</a>
+					</div>
+					<div class="theActivitiesImg">
+						<img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+							alt="">
+					</div>
+					<div class="theActivitiesExplain">
+						<p>灵感设计 INXX旗下集合女装专场（满减）</p>
+						<p class="red">
+							<span>
+								0.9
+							</span>
+							折
+						</p>
+					</div>
+				</div>
+				<div class="theActivities">
+					<div class="bbs"></div>
+					<div class="theButton">
+						<a>预览</a>
+						<span>|</span>
+						<a>订阅</a>
+					</div>
+					<div class="theActivitiesImg">
+						<img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+							alt="">
+					</div>
+					<div class="theActivitiesExplain">
+						<p>灵感设计 INXX旗下集合女装专场（满减）</p>
+						<p class="red">
+							<span>
+								0.9
+							</span>
+							折
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- 周二 -->
+			<div class ="tomorrow">
+				<div class="theActivities">
+					<div class="bbs"></div>
+					<div class="theButton">
+						<a>预览</a>
+						<span>|</span>
+						<a>订阅</a>
+					</div>
+					<div class="theActivitiesImg">
+						<img src="https://cdn12.mei.com/category/20190221/dce7c091194eeac0728180f42a56e26c78124244265805bc.jpg@150w_90h_2e_80q"
+							alt="">
+					</div>
+					<div class="theActivitiesExplain">
+						<p>灵感设计 INXX旗下集合女装专场（满减）</p>
+						<p class="red">
+							<span>
+								0.9
+							</span>
+							折
+						</p>
+					</div>
+				</div>
+				<div class="theActivities">
+					<div class="bbs"></div>
+					<div class="theButton">
+						<a>预览</a>
+						<span>|</span>
+						<a>订阅</a>
+					</div>
+					<div class="theActivitiesImg">
+						<img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+							alt="">
+					</div>
+					<div class="theActivitiesExplain">
+						<p>灵感设计 INXX旗下集合女装专场（满减）</p>
+						<p class="red">
+							<span>
+								0.9
+							</span>
+							折
+						</p>
+					</div>
+				</div>
+				<div class="theActivities">
+					<div class="bbs"></div>
+					<div class="theButton">
+						<a>预览</a>
+						<span>|</span>
+						<a>订阅</a>
+					</div>
+					<div class="theActivitiesImg">
+						<img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+							alt="">
+					</div>
+					<div class="theActivitiesExplain">
+						<p>灵感设计 INXX旗下集合女装专场（满减）</p>
+						<p class="red">
+							<span>
+								0.9
+							</span>
+							折
+						</p>
+					</div>
+				</div>
+				<div class="theActivities">
+					<div class="bbs"></div>
+					<div class="theButton">
+						<a>预览</a>
+						<span>|</span>
+						<a>订阅</a>
+					</div>
+					<div class="theActivitiesImg">
+						<img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+							alt="">
+					</div>
+					<div class="theActivitiesExplain">
+						<p>灵感设计 INXX旗下集合女装专场（满减）</p>
+						<p class="red">
+							<span>
+								0.9
+							</span>
+							折
+						</p>
+					</div>
+				</div>
+				<div class="theActivities">
+					<div class="bbs"></div>
+					<div class="theButton">
+						<a>预览</a>
+						<span>|</span>
+						<a>订阅</a>
+					</div>
+					<div class="theActivitiesImg">
+						<img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+							alt="">
+					</div>
+					<div class="theActivitiesExplain">
+						<p>灵感设计 INXX旗下集合女装专场（满减）</p>
+						<p class="red">
+							<span>
+								0.9
+							</span>
+							折
+						</p>
+					</div>
+				</div>
+				<div class="theActivities">
+					<div class="bbs"></div>
+					<div class="theButton">
+						<a>预览</a>
+						<span>|</span>
+						<a>订阅</a>
+					</div>
+					<div class="theActivitiesImg">
+						<img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+							alt="">
+					</div>
+					<div class="theActivitiesExplain">
+						<p>灵感设计 INXX旗下集合女装专场（满减）</p>
+						<p class="red">
+							<span>
+								0.9
+							</span>
+							折
+						</p>
+					</div>
+				</div>
+				<div class="theActivities">
+					<div class="bbs"></div>
+					<div class="theButton">
+						<a>预览</a>
+						<span>|</span>
+						<a>订阅</a>
+					</div>
+					<div class="theActivitiesImg">
+						<img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+							alt="">
+					</div>
+					<div class="theActivitiesExplain">
+						<p>灵感设计 INXX旗下集合女装专场（满减）</p>
+						<p class="red">
+							<span>
+								0.9
+							</span>
+							折
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- 周三 -->
+			<div class ="tomorrow">
+			    <div class="theActivities">
+			        <div class="bbs"></div>
+			        <div class="theButton">
+			            <a>预览</a>
+			            <span>|</span>
+			            <a>订阅</a>
+			        </div>
+			        <div class="theActivitiesImg">
+			            <img src="https://cdn12.mei.com/category/20190221/dce7c091194eeac0728180f42a56e26c78124244265805bc.jpg@150w_90h_2e_80q"
+			                alt="">
+			        </div>
+			        <div class="theActivitiesExplain">
+			            <p>灵感设计 INXX旗下集合女装专场（满减）</p>
+			            <p class="red">
+			                <span>
+			                    0.9
+			                </span>
+			                折
+			            </p>
+			        </div>
+			    </div>
+			    <div class="theActivities">
+			        <div class="bbs"></div>
+			        <div class="theButton">
+			            <a>预览</a>
+			            <span>|</span>
+			            <a>订阅</a>
+			        </div>
+			        <div class="theActivitiesImg">
+			            <img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+			                alt="">
+			        </div>
+			        <div class="theActivitiesExplain">
+			            <p>灵感设计 INXX旗下集合女装专场（满减）</p>
+			            <p class="red">
+			                <span>
+			                    0.9
+			                </span>
+			                折
+			            </p>
+			        </div>
+			    </div>
+			    <div class="theActivities">
+			        <div class="bbs"></div>
+			        <div class="theButton">
+			            <a>预览</a>
+			            <span>|</span>
+			            <a>订阅</a>
+			        </div>
+			        <div class="theActivitiesImg">
+			            <img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+			                alt="">
+			        </div>
+			        <div class="theActivitiesExplain">
+			            <p>灵感设计 INXX旗下集合女装专场（满减）</p>
+			            <p class="red">
+			                <span>
+			                    0.9
+			                </span>
+			                折
+			            </p>
+			        </div>
+			    </div>
+			    <div class="theActivities">
+			        <div class="bbs"></div>
+			        <div class="theButton">
+			            <a>预览</a>
+			            <span>|</span>
+			            <a>订阅</a>
+			        </div>
+			        <div class="theActivitiesImg">
+			            <img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+			                alt="">
+			        </div>
+			        <div class="theActivitiesExplain">
+			            <p>灵感设计 INXX旗下集合女装专场（满减）</p>
+			            <p class="red">
+			                <span>
+			                    0.9
+			                </span>
+			                折
+			            </p>
+			        </div>
+			    </div>
+			</div>
+			<!-- 周四 -->
+			<div class ="tomorrow">
+			    <div class="theActivities">
+			        <div class="bbs"></div>
+			        <div class="theButton">
+			            <a>预览</a>
+			            <span>|</span>
+			            <a>订阅</a>
+			        </div>
+			        <div class="theActivitiesImg">
+			            <img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+			                alt="">
+			        </div>
+			        <div class="theActivitiesExplain">
+			            <p>灵感设计 INXX旗下集合女装专场（满减）</p>
+			            <p class="red">
+			                <span>
+			                    0.9
+			                </span>
+			                折
+			            </p>
+			        </div>
+			    </div>
+			    <div class="theActivities">
+			        <div class="bbs"></div>
+			        <div class="theButton">
+			            <a>预览</a>
+			            <span>|</span>
+			            <a>订阅</a>
+			        </div>
+			        <div class="theActivitiesImg">
+			            <img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+			                alt="">
+			        </div>
+			        <div class="theActivitiesExplain">
+			            <p>灵感设计 INXX旗下集合女装专场（满减）</p>
+			            <p class="red">
+			                <span>
+			                    0.9
+			                </span>
+			                折
+			            </p>
+			        </div>
+			    </div>
+			    <div class="theActivities">
+			        <div class="bbs"></div>
+			        <div class="theButton">
+			            <a>预览</a>
+			            <span>|</span>
+			            <a>订阅</a>
+			        </div>
+			        <div class="theActivitiesImg">
+			            <img src="https://cdn13.mei.com/category/20190307/6eb6c9c61240c298044a9bbf03776a9e25aecd78fee7fcaf.jpg@150w_90h_2e_80q"
+			                alt="">
+			        </div>
+			        <div class="theActivitiesExplain">
+			            <p>灵感设计 INXX旗下集合女装专场（满减）</p>
+			            <p class="red">
+			                <span>
+			                    0.9
+			                </span>
+			                折
+			            </p>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="footer_container">
+			<div class="footer">
+				<div class="footer_advantage">
+					<ul>
+						<li>
+							<a href="#" class="a1">100%正品保证</a>
+						</li>
+						<li>
+							<a href="#" class="a2">满688免运费</a>
+						</li>
+						<li>
+							<a href="#" class="a3">7天无条件退货</a>
+						</li>
+						<li>
+							<a href="#" class="a4">超值折扣</a>
+						</li>
+						<li>
+							<a href="#" class="a5">9点限时闪购</a>
+						</li>
+						<li class="bbs">
+							<a href="#" class="a6">400－664－6698</a>
+						</li>
+					</ul>
+				</div>
+				<p class="footer_link">
+					<a href="">关于魅力惠</a>
+					<a href="">加入我们</a>
+					<a href="">联系我们</a>
+					<a href="">使用帮助</a>
+					<a href="">使用规则</a>
+					<a href="">隐私声明</a>
+					<a href="">网站地图</a>
+				</p>
+				<p class="footer_copyright">
+					<span>COPYRIGHT&copy;2016 杭州魅俪信息技术有限公司版权所有</span>浙ICP备16004860号-1
+				</p>
+				<p class="footer_license">
+					<span>
+						<a href="">
+							<img src="img/icon_badge.png" >
+						</a>
+					</span>
+				</p>
+			</div>
+		</div>
+	</div>
+	<script src="./src/js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./src/js/paging.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
